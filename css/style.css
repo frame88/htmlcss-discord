@@ -51,6 +51,16 @@ nav. float:nth-child(2) {
     vertical-align: middle;
 }
 
+.navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar a:hover, .navbar a:active, .navbar a:focus{
+    text-decoration: underline;
+}
+
 .navigator {
     list-style-type: none;
 }
@@ -63,4 +73,12 @@ nav. float:nth-child(2) {
 
 .navigator li::last-child {
     margin-right: 0;
+}
+
+a.buttton {
+    display: inline-block;
+    color: black;
+    background-color: white;
+    border-radius: 0.7em;
+    padding: 1em;
 }
