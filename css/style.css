@@ -10,7 +10,7 @@ html {
 }
 
 header{
-    background-image: url("../css/jumbo.png");
+    background-image: url("../img/jumbo.png");
     background-size: cover;
     width: 100%;
     height: 500px;
@@ -19,5 +19,11 @@ header{
 }
 
 nav {
+    margin: 0 auto;
+    width: 80%s;
 
+}
+
+float {
+    float: left;
 }
